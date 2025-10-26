@@ -1,27 +1,30 @@
 
+
 body {
-  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  background: linear-gradient(to bottom right, #121212, #1e1e1e);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #e0e0e0;
 }
+
 
 header {
   text-align: center;
   font-size: 2em;
   font-weight: bold;
-  background-color: #3f51b5;
-  color: white;
+  background-color: #212121;
+  color: #ffffff;
   padding: 20px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
+
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #283593;
+  background-color: #1f1f1f;
   display: flex;
   justify-content: center;
 }
@@ -33,31 +36,34 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 15px 25px;
-  color: ivory;
+  color: #d1c4e9;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-  background-color: #5c6bc0;
+  background-color: #512da8;
   color: #fff;
 }
 
+
 section {
-  background-color: #fff;
+  background-color: #2a2a2a;
   margin: 20px auto;
   padding: 20px;
   width: 90%;
   max-width: 1000px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
 }
+
 
 footer {
   text-align: center;
   font-size: 0.9em;
-  background-color: #1a237e;
-  color: #fff;
+  background-color: #181818;
+  color: #bdbdbd;
   padding: 15px 0;
   margin-top: 30px;
 }
+
