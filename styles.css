@@ -67,3 +67,51 @@ footer {
   margin-top: 30px;
 }
 
+#projects table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+#projects th, 
+#projects td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: top;
+}
+
+#projects thead {
+  background-color: #e7e7e7;
+}
+
+#projects caption {
+  caption-side: top;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+#projects {
+  transition: transform 0.3s ease;
+}
+
+#projects:hover {
+  transform: scale(1.02);
+}
+
+nav a {
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+main section {
+  transition: transform 0.3s ease;
+}
+
+main section:hover {
+  transform: scale(1.02);
+}
+
